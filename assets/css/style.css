@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather:wght@300;400;700&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; */
+
+/* Farbe: #202020, #24bff2, #fff, #F5FBFE */
+/* Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
+
+/* ====================================
+            BASIC STYLES
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* ====================================
+            NAV STYLES
+========================================= */
+
+nav {
+    position: sticky;
+    top: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 2vh;
+}
+
+nav ul li a {
+    color: #202020;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-right: 2vw;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ====================================
+            HEADER STYLES
+========================================= */
+header {
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    color: #202020;
+    font-size: 4.5rem;
+    padding-left: 10vw;
+}
+
+header h1:nth-of-type(1) {
+    padding-top: 20vh;
+}
+
+header p {
+    font-family: 'Merriweather', serif;
+    color: #202020;
+    font-size: 1.8rem;
+    padding: 5vh 50vw 0 10vw;
+    line-height: 1.5;
+}
+
+header a {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 2vh 2vw;
+}
+
+header a:nth-of-type(1) {
+    margin: 4vh 0.5vw 30vh 10vw;
+    background-color: #202020;
+    color: #fff;
+}
+
+header a:nth-of-type(2) {
+    color: #202020;
+    box-shadow: 0 0 3px #5a5a5a;
+}
+
+header a:hover {
+    box-shadow: 0 0 7px #5a5a5a;
+}
+
+header img {
+    position: absolute;
+    right: 0;
+    top: 5vh;
+    height: 80vh;
+    width: auto;
+}
+
+/* ====================================
+            MAIN STYLES
+========================================= */
+/* SECTION1, SECTION2, SECTION3, SECTION4 */
+
+main section:nth-of-type(1),
+main section:nth-of-type(2),
+main section:nth-of-type(3),
+main section:nth-of-type(4) {
+    position: relative;
+    font-family: 'Merriweather', serif;
+    color: #202020;
+}
+
+main section:nth-of-type(1) h1,
+main section:nth-of-type(2) h1,
+main section:nth-of-type(3) h1,
+main section:nth-of-type(4) h1 {
+    font-size: 4.5rem;
+}
+
+main section:nth-of-type(1) p,
+main section:nth-of-type(2) p,
+main section:nth-of-type(3) p,
+main section:nth-of-type(4) p {
+    font-size: 1.8rem;
+}
+
+main section:nth-of-type(1),
+main section:nth-of-type(2) {
+    padding-top: 20vh;
+}
+
+main section:nth-of-type(1) h1 {
+    padding: 0 10vw 0 50vw;
+}
+
+main section:nth-of-type(1) p {
+    padding: 5vh 10vw 30vh 50vw;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(1) img {
+    position: absolute;
+    left: 10vw;
+    top: 5vh;
+    height: 70vh;
+    width: auto;
+}
+
+main section:nth-of-type(2) h1 {
+    padding: 0 50vw 0 10vw;
+}
+
+main section:nth-of-type(2) p {
+    padding: 5vh 60vw 30vh 10vw;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(2) img {
+    position: absolute;
+    right: 10vw;
+    top: 5vh;
+    height: 70vh;
+    width: auto;
+}
+
+main section:nth-of-type(3),
+main section:nth-of-type(4) {
+    padding-top: 15vh;
+    text-align: center;
+}
+
+main section:nth-of-type(3) p {
+    padding: 5vh 21vw 10vh 21vw;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(3) img {
+    display: inline-block;
+    height: 30vh;
+    width: auto;
+    margin: 0 5vw 20vh 5vw;
+}
+
+main section:nth-of-type(3) img:hover {
+    box-shadow: 0 0 7px #5a5a5a;
+}
+
+main section:nth-of-type(4) p {
+    padding: 5vh 26vw 10vh 26vw;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(4) div img {
+    display: inline-block;
+    height: auto;
+    width: 40vw;
+    margin: 0 2vw 10vh 2vw;
+}
+
+main section:nth-of-type(4) div img:hover {
+    box-shadow: 0 0 7px #5a5a5a;
+}
+
+/* SECTION5 */
+
+main section:nth-of-type(5) {
+    font-family: 'Merriweather', serif;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+main section:nth-of-type(5) h1 {
+    font-size: 4.5rem;
+    color: #202020;
+}
+
+main section:nth-of-type(5)>p:nth-of-type(1) {
+    font-size: 1.8rem;
+    padding: 5vh 26vw 5vh 26vw;
+    line-height: 1.5;
+    color: #202020;
+}
+
+main section:nth-of-type(5) article {
+    background-color: #F5FBFE;
+    border-radius: 3px;
+    width: 24vw;
+    margin: 0 auto;
+    box-shadow: 0 0 0.5px #5a5a5a;
+}
+
+main section:nth-of-type(5) article h2 {
+    font-size: 2rem;
+    color: #202020;
+    padding-top: 7vh;
+}
+
+main section:nth-of-type(5) article h3 {
+    font-size: 4.5rem;
+    color: #202020;
+    padding-top: 6vh;
+}
+
+main section:nth-of-type(5) article h4 {
+    font-size: 1.4rem;
+    color: rgba(32, 32, 32, 0.5);
+    padding: 6vh 0 3vh 0;
+}
+
+main section:nth-of-type(5) article p {
+    font-size: 1.2rem;
+    color: #202020;
+    line-height: 1.5;
+}
+
+main section:nth-of-type(5) article a {
+    background-color: #24bff2;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 2vh 4vw;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4vh 0 7vh 0;
+}
+
+main section:nth-of-type(5) article a:hover {
+    box-shadow: 0 0 7px #5a5a5a;
+}
+
+/* ====================================
+            FOOTER STYLES
+========================================= */
+footer {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 4.5rem;
+    color: #202020;
+    padding: 20vh 0 5vh 0;
+}
+
+footer p {
+    font-size: 1.1rem;
+    color: rgba(32, 32, 32, 0.5);
+    padding: 3vh 0;
+}
+
+footer a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer a:nth-of-type(2),
+footer a:nth-of-type(3),
+footer a:nth-of-type(4),
+footer a:nth-of-type(5) {
+    padding: 0 0.5vw 5vh 0.5vw;
+}
+
+footer a:nth-of-type(2):before {
+    content: ".";
+    color: #3b5998;
+    font-size: 3rem;
+    padding-right: 2px;
+}
+
+footer a:nth-of-type(3):before {
+    content: ".";
+    color: #fcaf45;
+    font-size: 3rem;
+    padding-right: 2px;
+}
+
+footer a:nth-of-type(4):before {
+    content: ".";
+    color: #55acee;
+    font-size: 3rem;
+    padding-right: 2px;
+}
+
+footer a:nth-of-type(5):before {
+    content: ".";
+    color: #c4302b;
+    font-size: 3rem;
+    padding-right: 2px;
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 3px #5a5a5a
+}
